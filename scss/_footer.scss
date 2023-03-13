@@ -1,0 +1,42 @@
+#main-footer {
+    background-color: $dark-color;
+    color: #fff;
+    height: 5rem;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+
+        .social .fab {
+            margin-right: 1rem;
+             
+            border-radius: 50%;
+            text-align: center;
+            padding: 0.6rem;
+            color: #fff;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.3);
+             }
+        }
+
+        .social .fa-facebook {
+            background-color: #3b5998;
+        }
+
+        .social .fa-twitter {
+            background-color: #1da1f2;
+        }
+
+        .social .fa-instagram {
+            background-color: #e1306c;
+        }
+
+        .social .fa-linkedin {
+            background-color: #0077b5;
+        }
+    }
+}

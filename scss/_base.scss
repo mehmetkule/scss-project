@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html{
+    scroll-behavior: smooth; 
+}
+body {
+    background-color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
